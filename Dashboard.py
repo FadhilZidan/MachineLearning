@@ -21,13 +21,11 @@ with col2:
     avg_temp = day_df['temp'].mean()
     st.metric("Rata-rata Suhu (Norm)", f"{avg_temp:.2f}")
 
-# Plot 1
 st.subheader("Pengaruh Cuaca terhadap Penyewaan")
 fig, ax = plt.subplots()
 sns.barplot(x='weather_label', y='cnt', data=day_df, ax=ax)
 st.pyplot(fig)
 
-# Insight Section
 st.write("### Insight Utama")
 st.write("- Penyewaan mencapai puncak pada cuaca cerah.")
 st.write("- Suhu berpengaruh signifikan terhadap minat pengguna.")
