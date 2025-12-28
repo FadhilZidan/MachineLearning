@@ -10,7 +10,7 @@ Proyek ini menganalisis tren penyewaan sepeda berdasarkan kondisi cuaca, waktu, 
 ## Cara Menjalankan
 1. Clone repository ini.
 2. Install library: `pip install -r requirements.txt`
-3. Jalankan dashboard: `streamlit run dashboard.py`
+3. Jalankan dashboard: `streamlit run Dashboard.py`
 
 ## Ringkasan Insight
 - Pengguna meningkat pada jam berangkat dan pulang kantor pada hari kerja.
